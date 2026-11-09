@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:monety/common/app_colors.dart';
+import 'package:monety/common/app_text_styles.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -19,13 +20,9 @@ class SplashPage extends StatelessWidget {
           ]
         )
       ),
-      child: const Text(
+      child: Text(
         'Monety', 
-        style: TextStyle(
-          fontSize: 50.0, 
-          fontWeight: FontWeight.w700, 
-          color: AppColors.white
-          )
+        style: AppTextStyles.bigText.copyWith(color: AppColors.white),
         ),
       )
     );
