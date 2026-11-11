@@ -8,7 +8,10 @@ class OnboardingPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          
+          ElevatedButton(
+            onPressed: () {}, 
+            child: const Text('Get Started')
+            )
         ],
       ),
     );
